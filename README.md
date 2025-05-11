@@ -207,3 +207,27 @@ Copy
      matplotlib==3.9.2
      scikit-learn==1.5.1
 Save this as requirements.txt in the repository root.
+
+Push to GitHub:
+Commit and push all files:
+bash
+
+Copy
+git add .
+git commit -m "Initial commit with Streamlit app, README, and supporting files"
+git push origin main
+Optional Enhancements:
+.gitignore: Create a .gitignore file to exclude unnecessary files:
+text
+
+Copy
+venv/
+__pycache__/
+*.pyc
+dataset_.csv
+This excludes the virtual environment, Python cache, and the dataset (if private).
+Screenshot: If you can’t create a screenshot yet, run the app locally, capture the interface, and add it to assets/.
+Deployment: To make the app publicly accessible, deploy it to Streamlit Cloud:
+Push the repository to GitHub.
+Sign into Streamlit Cloud, connect your repo, and deploy app.py.
+Add the deployed URL to the README under the Usage section (e.g., "Access the deployed app at [your-streamlit-url]").
