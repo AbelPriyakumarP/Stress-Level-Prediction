@@ -1,6 +1,6 @@
 # Student Stress Level Predictor
 
-![Streamlit App Screenshot]([Screenshot 2025-05-11 214616.png](https://github.com/AbelPriyakumarP/Stress-Level-Prediction/blob/feaf1667136dabebacde7f74feaa171e60a1c14f/Screenshot%202025-05-11%20214616.png))
+![image alt](https://github.com/AbelPriyakumarP/Stress-Level-Prediction/blob/feaf1667136dabebacde7f74feaa171e60a1c14f/Screenshot%202025-05-11%20214616.png)
 
 A **Streamlit-based web application** that predicts a student's stress level (**Low**, **Moderate**, or **High**) using a pre-trained **Random Forest Classifier**. The app leverages a dataset of student activities and GPA to provide insights into stress triggers, with features like prediction probabilities and feature importance visualization.
 
